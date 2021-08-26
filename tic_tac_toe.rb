@@ -167,9 +167,9 @@ class TicTacToe
     puts
     puts "    A   B   C"
     puts "1 |#{@game[0].to_s.gsub(", ","|").sub("[","").sub("]","")}|"
-    puts "  -------------"
+    puts "  +---+---+---+"
     puts "2 |#{@game[1].to_s.gsub(", ","|").sub("[","").sub("]","")}|"
-    puts "  -------------"
+    puts "  +---+---+---+"
     puts "3 |#{@game[2].to_s.gsub(", ","|").sub("[","").sub("]","")}|"
     
     puts
