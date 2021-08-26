@@ -1,3 +1,5 @@
+private 
+
 class Player
   attr_accessor :name, :symbol, :number_of_wins
   
